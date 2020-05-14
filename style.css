@@ -1,0 +1,117 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding: .5rem 1rem;
+}
+
+.start {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+  outline: none;
+  border: none;
+  background-color: #a287fa;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.select-color-snake {
+  box-sizing: border-box;
+  width: 50%;
+  height: 40px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.select-color-snake button {
+    padding: .4rem .5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.select-color-snake button:nth-child(3) {
+  background-color: #f00;
+  color: #fff;
+}
+
+.select-color-snake button:nth-child(2) {
+  background-color: #0a0;
+  color: #fff;
+}
+.select-color-snake button:nth-child(1) {
+  background-color: #00f;
+  color: #fff;
+}
+.select-color-snake button:nth-child(4) {
+  background-color: #222;
+  color: #fff;
+}
+
+.select-color-snake button:hover {
+  opacity: .689;
+  cursor: pointer;
+}
+
+.score {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.game-over {
+  color: #f00;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: purple;
+}
+
+.table-score {
+  margin-top: 1rem;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
