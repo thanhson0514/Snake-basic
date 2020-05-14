@@ -16,4 +16,6 @@
 3. open browser and play a game
 
 ## Conclusion
-
+* _Code Javascript have to not 100% of myself. This is a concept on Internet and Youtube_
+* _the main code is for reference_ <3
+> My code is written similar on Youtube and I'm learn code on Youtube and read something on internet (ex: freecodecamp, medium,...)
